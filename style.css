@@ -89,9 +89,119 @@
 }
 .rightDiv{
     width:400px ;
+    display: flex;
 }
 .YearPhoto{
 height: 350px;
-/* padding: 50px; */
+align-self: center;
 
+}
+/* Hotel place */
+.TimeDate{
+    height: 400px;
+    background-color: rgba(255, 192, 203, 0.63);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.schedule{
+    text-align: center;
+    line-height: 40px;
+}
+.scheduleBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+/* Coming soon */
+.commingDiv{
+    display: flex;
+    margin-top: 30px;
+}
+.left{
+    width: 33%;
+    
+}
+.leftTitle{
+    margin: 10px 0;
+}
+.left-subTitle{
+    color: red;
+}
+.middle{
+    width: 33%;
+    display: flex;
+    align-self: center;
+
+}
+.middleImg{
+    width: 180px;
+    height: 180px;
+    justify-items: center;
+    border: 5px solid red;
+    border-radius: 50%;
+    padding: 15px;
+    
+    
+
+}
+.right{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.rightPara{
+    text-align: center;
+    margin: 15px 0;
+}
+.rightYear{
+    color: red;
+    font-size: 35px;
+}
+/* Holiday sale */
+.saleDescrip{
+    width: 75%;
+    text-align: center;
+    margin-top: 25px;
+}
+.saleTitle{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.holiday{
+    color: red;
+    
+}
+/* Holiday image section */
+.holidayImage{
+    background-image: url('./resources/Rectangle\ 1.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0 ;
+}
+.redDiv{
+    height: 120px;
+    background-color: red;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+    
+}
+.holidayImageChild{
+    position: absolute;
+    width: 180px;
+    right: 330px;
+    top: 100px;
+    
+}
+.holidayImageChild1{
+    width: 300px;
+    position: absolute;
+    bottom: -60px;
+    left: 70px;
 }
