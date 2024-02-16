@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+.fisrt-banner{
+    border: 1px solid black;
+    width: full;
+    height: 400px;
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+   /* opacity: 0.5; */
+   background-color: rgba(0,0,0,0.6);
+   background-blend-mode: multiply;
+}
+.banner-Text{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    line-height: 50px;
+}
+.heading{
+    color: white;
+}
+.subHeading{
+    font-size: 45px;
+    color: white;
+}
