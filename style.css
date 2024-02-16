@@ -4,6 +4,7 @@
     max-width: 1000px;
     margin: auto;
 }
+/* First banner */
 .fisrt-banner{
     border: 1px solid black;
     width: full;
@@ -16,6 +17,7 @@
    /* opacity: 0.5; */
    background-color: rgba(0,0,0,0.6);
    background-blend-mode: multiply;
+   border-radius: 10px;
 }
 .banner-Text{
     width: 50%;
@@ -29,4 +31,67 @@
 .subHeading{
     font-size: 45px;
     color: white;
+}
+
+/* Second banner */
+.off{
+    font-size: 45px;
+    color: #FF0000;
+}
+.holyDiv{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.holyHead{
+    margin: 20px 0;
+    color: #FF0000;
+}
+.newYearImg{
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* welcome div */
+.welcomeDiv{
+    border: 1px solid black;
+    width: full;
+    height: 400px;
+    background-image: url('./resources/Vectorrr.png');
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   /* opacity: 0.5; */
+   background-color: rgba(0,0,0,0.6);
+   background-blend-mode: multiply;
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+.leftDiv{
+    width: 800px;
+    color: white;
+    padding: 50px;
+    width: 2/3;
+    
+}
+.wellcomePara{
+    margin: 20px 0;
+}
+.joinBtn{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.rightDiv{
+    width:400px ;
+}
+.YearPhoto{
+height: 350px;
+/* padding: 50px; */
+
 }
