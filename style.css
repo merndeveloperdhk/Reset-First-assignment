@@ -8,7 +8,7 @@
     border: 1px solid black;
     width: full;
     height: 400px;
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('./resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
