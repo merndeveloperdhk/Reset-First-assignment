@@ -17,10 +17,11 @@
     background-position: center;
     background-size: cover;
     display: flex;
-   /* opacity: 0.5; */
    background-color: rgba(0,0,0,0.6);
    background-blend-mode: multiply;
    border-radius: 10px;
+   justify-content: center;
+   align-items: center;
 }
 .banner-Text{
     width: 50%;
@@ -67,7 +68,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-content: center;
+   align-items: center;
    /* opacity: 0.5; */
    background-color: rgba(0,0,0,0.6);
    background-blend-mode: multiply;
@@ -123,6 +124,8 @@ align-self: center;
 .commingDiv{
     display: flex;
     margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 .left{
     width: 33%;
@@ -136,8 +139,7 @@ align-self: center;
 }
 .middle{
     width: 33%;
-    display: flex;
-    align-self: center;
+    
 
 }
 .middleImg{
@@ -156,8 +158,10 @@ align-self: center;
     display: flex;
     flex-direction: column;
 }
+.right img{
+    width: 100px;
+}
 .rightPara{
-    text-align: center;
     margin: 15px 0;
 }
 .rightYear{
@@ -167,6 +171,7 @@ align-self: center;
 /* Holiday sale */
 .saleDescrip{
     width: 75%;
+    margin: 0 auto;
     text-align: center;
     margin-top: 25px;
 }
@@ -237,6 +242,7 @@ align-self: center;
     height: 350px;
     background-color: antiquewhite;
     margin: 30px 0;
+    padding: 20px 0;
     
 }
 .subDetails{
@@ -303,4 +309,7 @@ align-self: center;
     display: flex;
     justify-content: space-between;
     
+ }
+ hr{
+    border:1px solid gray;
  }
