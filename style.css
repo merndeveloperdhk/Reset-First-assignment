@@ -229,3 +229,43 @@ align-self: center;
 .cartImg {
     width: 300px;
 }
+/* Subscribe */
+.subscribe{
+    height: 350px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
+.subDetails{
+    width: 70%;
+    text-align: center;
+    padding: 40px;
+}
+.subDetails img{
+    width: 80px;
+}
+.subTitle{
+    font-size: 40px;
+    margin: 10px 0;
+}
+.subInput{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.subInput input{
+    padding: 8px;
+    margin-right: 0;
+    padding-right: 0;
+    border-radius:20px 0 0 20px ;
+    margin-right: -5px;
+    border: 0;
+}
+.subInput button{
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    color: white;
+    border: none;
+    
+}
