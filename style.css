@@ -69,7 +69,6 @@
     display: flex;
     justify-content: center;
    align-items: center;
-   /* opacity: 0.5; */
    background-color: rgba(0,0,0,0.6);
    background-blend-mode: multiply;
    margin-bottom: 20px;
@@ -103,7 +102,7 @@ align-self: center;
 /* Hotel place */
 .TimeDate{
     height: 400px;
-    background-color: rgba(255, 192, 203, 0.63);
+    background-image: linear-gradient(hsla(0, 46%, 69%, 0.74), rgba(216, 166, 166, 0.301));
     padding: 50px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -123,9 +122,10 @@ align-self: center;
 /* Coming soon */
 .commingDiv{
     display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
+    justify-items: space-between;
     align-items: center;
+    margin-top: 30px;
+   
 }
 .left{
     width: 33%;
@@ -139,6 +139,8 @@ align-self: center;
 }
 .middle{
     width: 33%;
+    display: flex;
+    justify-content: center;
     
 
 }
@@ -156,7 +158,9 @@ align-self: center;
 .right{
     width: 33%;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    text-align: start;
 }
 .right img{
     width: 100px;
