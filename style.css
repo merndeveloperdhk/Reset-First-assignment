@@ -308,6 +308,11 @@ align-self: center;
     width: 50px;
     margin-right: 15px;
  }
+ .number{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+ }
  .footerBottom{
     margin-top: 20px;
     display: flex;
